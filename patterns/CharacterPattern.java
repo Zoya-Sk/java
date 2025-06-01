@@ -1,19 +1,19 @@
 /*
- Print half-pyramid pattern : 
-
-1
-12
-123
-1234
- 
+ print character pattern : 
+ A
+ BC
+ DEF
+ GHIJ
  */
 
-public class star3 {
+public class CharacterPattern {
     public static void main(String[] args) {
         int n = 4;
+        char ch = 'A';
         for(int i = 1; i <= n; i++){
             for(int j = 1; j <= i; j++){
-                System.out.print(j);
+                System.out.print(ch);
+                ch++;
             }
             System.out.println();
         }
